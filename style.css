@@ -1,0 +1,96 @@
+body{
+    background-color:cornflowerblue;
+    height: 100px;
+}
+
+.tit{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Anton', sans-serif; 
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 4px 0px blue; 
+    letter-spacing: 2px;
+
+}
+
+nav{
+    background-color:lightskyblue ;
+    text-align: center;
+    padding: 10px;
+    border: dotted 5px blue;
+
+}
+
+footer{
+    margin-top: 300px;
+    text-align:center;
+    color:red;
+    background-color:lightskyblue;
+}
+
+a{
+    border: 2px blue solid;
+    color: white;
+    background-color:cornflowerblue;
+}
+
+a:hover{
+    border: 2px blue solid;
+    color: white;
+    background-color:blueviolet;
+}
+
+section{
+    background-color:lightskyblue ;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;;
+    border:5px solid ;
+    border-top: 5px dashed;
+    border-bottom: 5px dotted;
+    border-right: 7px double;
+    border-color:blue;
+    border-top-left-radius: 15px;
+}
+
+.texto {
+    text-align: center;
+    color:blue;
+    letter-spacing: 5px;
+
+}
+
+.lista{
+    text-align: center;
+    color:blue;
+    padding: 10px;
+
+}
+
+.formulario{
+    margin-left: 100px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    height: 250px;
+    text-align: left;
+    flex-direction: column;
+}
+li{
+    list-style-type: upper-roman;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    list-style-position: inside;
+}
+
+h2{
+    text-decoration: underline;
+}
+.contenedor {
+    display: flex;
+}
